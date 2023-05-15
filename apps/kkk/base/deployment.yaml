@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kkk
+  namespace: xgeeks-idp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kkk
+  template:
+    metadata:
+      labels:
+        app: kkk
+    spec:
+      containers:
+        - image: gabtec/test-k8s:v1
+          name: kkk
+          ports:
+            - containerPort: 80
