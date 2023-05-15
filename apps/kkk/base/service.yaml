@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kkk
+  namespace: xgeeks-idp
+spec:
+  selector:
+    app: kkk
+  # type: LoadBalancer | ClusterIP | NodePort
+  ports:
+    - name: service-port
+      port: 8081 # service port
+      targetPort: 80 # container port
