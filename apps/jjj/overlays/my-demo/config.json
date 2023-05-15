@@ -1,0 +1,11 @@
+{
+  "appName": "jjj",
+  "userGivenName": "jjj",
+  "destNamespace": "my-demo",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/jjj/overlays/my-demo",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
