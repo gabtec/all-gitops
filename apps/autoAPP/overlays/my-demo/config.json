@@ -1,0 +1,11 @@
+{
+  "appName": "autoAPP",
+  "userGivenName": "autoAPP",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/autoAPP/overlays/my-demo",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
