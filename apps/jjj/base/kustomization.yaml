@@ -4,7 +4,7 @@ resources:
   - deployment.yaml
   - service.yaml
 
-namespace: my-demo
+namespace: default
 
 images:
   - name: jjj
