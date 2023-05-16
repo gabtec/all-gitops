@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fbs
+  name: qwert
   namespace: 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fbs
+      app: qwert
   template:
     metadata:
       labels:
-        app: fbs
+        app: qwert
     spec:
       containers:
         # - image: gabtec/test-k8s:v1
         - image: gabtec/test-k8s
-          name: fbs
+          name: qwert
           ports:
             - containerPort: 80
