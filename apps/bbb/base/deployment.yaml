@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bbb
+  namespace: aaa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bbb
+  template:
+    metadata:
+      labels:
+        app: bbb
+    spec:
+      containers:
+        - image: gabtec/test-k8s:v1
+          name: bbb
+          ports:
+            - containerPort: 80
