@@ -5,5 +5,5 @@ resources:
   - ../../base
 
 images:
-  - name: /test-k8s
+  - name: gabtec/test-k8s
     newTag: v1
