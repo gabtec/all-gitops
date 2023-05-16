@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fbs
+  namespace: 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fbs
+  template:
+    metadata:
+      labels:
+        app: fbs
+    spec:
+      containers:
+        # - image: gabtec/test-k8s:v1
+        - image: gabtec/test-k8s
+          name: fbs
+          ports:
+            - containerPort: 80
