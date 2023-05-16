@@ -1,0 +1,11 @@
+{
+  "appName": "qwert",
+  "userGivenName": "qwert",
+  "destServer": "https://kubernetes.default.svc",
+  "destNamespace": "ns-dev",
+  "srcPath": "apps/qwert/overlays/ns-dev",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
