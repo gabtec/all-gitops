@@ -1,0 +1,11 @@
+{
+  "appName": "ddd",
+  "userGivenName": "ddd",
+  "destServer": "https://kubernetes.default.svc",
+  "destNamespace": "dev",
+  "srcPath": "apps/ddd/overlays/dev",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
