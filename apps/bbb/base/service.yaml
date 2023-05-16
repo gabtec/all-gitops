@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bbb
+  namespace: aaa
+spec:
+  selector:
+    app: bbb
+  # type: LoadBalancer | ClusterIP | NodePort
+  ports:
+    - name: service-port
+      port: 8081 # service port
+      protocol: TCP
+      targetPort: 80 # container port
