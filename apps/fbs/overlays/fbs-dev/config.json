@@ -4,7 +4,7 @@
   "destServer": "https://kubernetes.default.svc",
   "destNamespace": "fbs-dev",
   "srcPath": "apps/fbs/overlays/fbs-dev",
-  "srcRepoURL": "https://github.com//all-gitops.git",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null
