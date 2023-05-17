@@ -1,0 +1,11 @@
+{
+  "appName": "avengers",
+  "userGivenName": "avengers",
+  "destServer": "https://kubernetes.default.svc",
+  "destNamespace": "default",
+  "srcPath": "apps/avengers/overlays/default-dev",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
