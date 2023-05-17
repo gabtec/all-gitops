@@ -1,0 +1,11 @@
+{
+  "appName": "ping",
+  "userGivenName": "ping",
+  "destServer": "https://kubernetes.default.svc",
+  "destNamespace": "pong",
+  "srcPath": "apps/ping/overlays/pong-dev",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
