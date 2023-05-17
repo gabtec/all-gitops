@@ -37,7 +37,7 @@ spec:
     - git:
         files:
           - path: apps/**/marvell-staging/config.json
-        repoURL: https://github.com//all-gitops.git
+        repoURL: https://github.com/gabtec/all-gitops.git
         requeueAfterSeconds: 20
         revision: ''
         template:
