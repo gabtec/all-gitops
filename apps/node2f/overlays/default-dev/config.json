@@ -1,0 +1,11 @@
+{
+  "appName": "node2f",
+  "userGivenName": "node2f",
+  "destServer": "https://kubernetes.default.svc",
+  "destNamespace": "default",
+  "srcPath": "apps/node2f/overlays/default-dev",
+  "srcRepoURL": "https://github.com/gabtec/all-gitops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
